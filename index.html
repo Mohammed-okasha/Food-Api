@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Css File ------------->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Food Category App -->
+    <section id="food-category">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="heading">
+                <div class="title">
+                    <h1>find for your food category</h1>
+                    <span class="text-muted">
+                        real food doesn't have ingredients,
+                        real food is in ingredients<br> - jamie oliver
+                    </span>
+                </div>
+                <!-- Search Box -->
+                <div id="search-box">
+                    <input type="search" name="search" autofocus
+                    placeholder="Enter food Category" id="search-input">
+                    <button type="submit" id="search-btn" title="Search Food">
+                        <i class = "fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="error-msg"></div>
+            </div>
+
+            <!-- Meal Result -->
+            <div class="meal-result">
+                <!-- Heading -->
+                <div class="head">
+                    <h2>your search results: <span class="category"></span></h2>
+                </div>
+
+                <!-- Meals Container -->
+                <div id="meals-container">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meal Details Modal -->
+    <div id="meal-details">
+        <!-- Meal Modal -->
+        </div>
+    </div>
+
+    <!-- Js File -->
+    <script src="main.js"></script>
+</body>
+</html>
